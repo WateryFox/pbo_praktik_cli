@@ -1,26 +1,26 @@
 # CLI Book Management System
 
-Aplikasi Command-Line Interface (CLI) berbasis Python dan Pemrograman Berbasis Objek (PBO) yang digunakan untuk mengelola inventaris buku. Proyek ini mengimplementasikan pemisahan modul secara terstruktur dan menyimpan data secara persisten menggunakan format CSV.
+A Python-based Command-Line Interface (CLI) application developed using Object-Oriented Programming (OOP) principles to manage book inventories. The project features a modular architecture and persists data using CSV file storage.
 
 ---
 
-## Fitur Utama
+## Features
 
-- **Tampilkan Daftar Buku:** Menampilkan seluruh data buku yang tersimpan dalam sistem.
-- **Tambah Buku Baru:** Menginput data buku baru ke dalam database secara interaktif.
-- **Persistensi Data:** Seluruh perubahan data tersimpan otomatis pada file `buku.csv`.
-- **Arsitektur Modular (OOP):** Pengkodean mengacu pada prinsip Pemrograman Berbasis Objek (`models.py`) untuk mempermudah pemeliharaan kode.
+- **Display Book List:** View all book records stored in the system.
+- **Add New Book:** Interactively insert new book entries into the inventory.
+- **Data Persistence:** Automatically save and retain records in `buku.csv`.
+- **Modular Architecture (OOP):** Implements Object-Oriented Programming (`models.py`) for clean code separation and maintainability.
 
 ---
 
-## Struktur Proyek
+## Project Structure
 
 ```text
 pbo_praktik_cli/
-├── Main.py            # Entry point program dan navigasi menu utama
-├── models.py          # Class dan data model (OOP)
-├── tambah_buku.py     # Modul penambahan data buku
-├── tampil_buku.py     # Modul menampilkan daftar buku
-├── buku.csv           # File penyimpanan data (CSV)
-├── .gitignore         # Daftar berkas yang diabaikan oleh Git
-└── LICENSE            # Lisensi proyek (MIT License)
+├── Main.py            # Main entry point and CLI menu navigation
+├── models.py          # Data models and OOP classes
+├── tambah_buku.py     # Module for adding new books
+├── tampil_buku.py     # Module for displaying book records
+├── buku.csv           # CSV data storage file
+├── .gitignore         # Git ignore rules
+└── LICENSE            # MIT License
